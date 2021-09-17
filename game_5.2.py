@@ -293,8 +293,8 @@ class import_bomb:
     def __init__(self):
         # Generates a random speed
         self.bomb = bomb
-        self.speedx = random.randint(5, 10)
-        self.speedy = random.randint(5, 15)
+        self.speedx = random.randint(3, 8)
+        self.speedy = random.randint(3, 8)
         self.active = True
         self.move_active()
 
